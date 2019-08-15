@@ -1,3 +1,5 @@
-read -p "Enter your name: " tanu
-mkdir $tanu
-touch $tanu.cpp
+echo "What is your name?"
+read naam
+mkdir $naam
+cd $naam
+touch $naam.cpp
